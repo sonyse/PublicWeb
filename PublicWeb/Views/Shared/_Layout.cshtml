@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="localizeApp">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Tiza Official Web</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Styles.Render("~/Content/themes/tiza/bootstrap/css")
+        @Styles.Render("~/Content/themes/tiza/fontawesome/css")
+        @Scripts.Render("~/bundles/modernizr")
+
+		<script type="text/javascript" src='@Url.Content("~/components/angular/angular.js")'></script>
+	    <script type="text/javascript" src='@Url.Content("~/components/angular-ui/angular-ui.js")'></script> 
+	    <script type="text/javascript" src='@Url.Content("~/components/ui-bootstrap/ui-bootstrap-0.3.0.js")'></script>
+	    <script type="text/javascript" src='@Url.Content("~/components/ui-bootstrap/ui-bootstrap-tpls-0.3.0.js")'></script>
+	    <script type="text/javascript" src='@Url.Content("~/components/localize/localize.js")'></script>
+	    <script type="text/javascript" src='@Url.Content("~/Scripts/jquery-1.9.1.min.js")'></script>
+	     
+
+<!---	    @Scripts.Render("~/bundles/allscript")  -->
+
+	    <script type="text/javascript" src=@Url.Content("~/Scripts/app.js")></script>
+	    <script type="text/javascript" src=@Url.Content("~/Scripts/AppController.js")></script> 
+	    <script type="text/javascript" src=@Url.Content("~/Scripts/HomeController.js")></script>
+	    <script type="text/javascript" src=@Url.Content("~/Scripts/NewPersonController.js")></script>
+	    <script type="text/javascript" src=@Url.Content("~/Scripts/EditPersonController.js")></script>
+
+<!---    jssor slider -->
+	    <script type="text/javascript" src=@Url.Content("~/Scripts/jssor.core.js")></script>
+	    <script type="text/javascript" src=@Url.Content("~/Scripts/jssor.utils.js")></script>
+	    <script type="text/javascript" src=@Url.Content("~/Scripts/jssor.slider.js")></script>
+
+    </head>
+ 	<body ng-controller="AppController">
+	<!--- insert header in here --> 
+	@RenderPage("~/Views/Shared/_Header.cshtml")
+	<!--- insert body in here -->
+	@RenderBody()
+	<!--- insert Footer in here -->
+	@RenderPage("~/Views/Shared/_Footer.cshtml")
+
+
+  </body>
+
+</html>

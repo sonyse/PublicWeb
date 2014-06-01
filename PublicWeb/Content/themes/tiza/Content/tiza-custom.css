@@ -1,0 +1,114 @@
+    	ul {
+    		background-color:#21410e;
+    	}
+
+    	.nav-tabs {
+    		border-bottom:1px;
+    		border-bottom-color:#21410e
+    	}
+
+    	.nav-tabs>li.active > a {
+    		background-color :#000000;
+    		border:1px solid #000000;
+    		color:#ffffff;
+    	}
+
+    	.nav-tabs>li.active >a :hover{
+    		border:1px;
+
+    	}
+
+		.navbar-inverse {
+			background-color: #21410e;
+			border-color: #080808;
+		}
+
+    	.nav-tabs>li> a{
+    		border:1px;
+    		color :#ffffff;
+    	}
+
+    	.nav-tabs>li> a:hover{
+    		border:1px;
+    		color :#000000;
+    	}
+
+
+    	.jumbotron{
+    		background-color: rgb(51, 102, 21);
+    		background-size:cover;
+    		padding-bottom : 0px;
+
+    	}
+
+    	.container {
+    		padding-left :0px;
+    		padding-right : 0px;
+
+    	}
+
+		.img-thumbnail {
+			display: inline-block;
+			height: auto;
+			max-width: 100%;
+			padding: 10px;
+			line-height: 1.428571429;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			-webkit-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+		}
+
+		#img1.img-thumbnail {
+			//max-width:50%;
+
+		}
+
+		h1#ITSimple {
+//			margin-left:45px;
+			padding-left : 10px;
+			color :white;
+		}
+
+		p#tagline {
+//			margin-left:45px;
+			padding-left : 10px;
+		}
+
+		i#fb1,i#tw1 {
+//			margin-left:45px;
+			padding-left : 10px;
+		}
+
+		img#img1.img-thumbnail {
+		}
+
+
+		div#imgwr1.image,div#imgwr2.image,div#imgwr3.image {
+			float : left;
+			position:relative;
+		}
+
+
+		div.description{
+			position:absolute; /* absolute position (so we can position it where we want)*/
+			bottom:0px; /* position will be on bottom */
+			left:0px;
+			width:100%;
+			/* styling bellow */
+			background-color:rgb(51, 102, 21);
+			font-family: 'Arial';
+			font-size:15px;
+			color:white;
+			opacity:0.6; /* transparency */
+			filter:alpha(opacity=60); /* IE transparency */
+		}
+		p.desc_content{
+			padding:10px;
+			margin:0px;
+		}
+
+
+
+
